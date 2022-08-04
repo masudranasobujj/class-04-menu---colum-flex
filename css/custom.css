@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    
+background-color: #9393eb;
+}
+.container{
+
+display: flex;
+
+flex-wrap: wrap;
+
+width: 1200px;
+
+margin: auto;
+
+padding: 15px 0px;
+
+align-items: center;
+}
+.container .logo{
+    flex: 0 0 auto;
+    width: 20%;
+}
+.container .logo a{}
+.container .logo a img{}
+.container nav{
+    flex: 0 0 auto;
+    width: 80%;
+}
+.container nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.container nav ul li{
+    flex: 0 0 auto;
+    list-style: none;
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: #232323;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px;
+}
+section{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100vh;
+}
+section .col{
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+section .col .box{
+    background: #d3d3fc;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #64b3ff;
+}
+section .col .box h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 8px;
+}
+section .col .box h1 p{}
